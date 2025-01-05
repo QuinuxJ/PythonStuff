@@ -7,3 +7,5 @@ print(DNA_strand("TTTT")) #Output -> AAAA
 print(DNA_strand("CCCC")) #Output -> GGGG
 print(DNA_strand("GGGG")) #Output -> CCCC
 print(DNA_strand("ATCG")) #Output -> TAGC
+
+
