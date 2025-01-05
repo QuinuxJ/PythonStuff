@@ -12,18 +12,20 @@ def solution(list1, list2,m, n):
             list1[k] = list2[j] #el elemento de la lista 1 en la posicion k sera igual al elemento de la lista 2 en la posicion j
             j -= 1 #decrementamos j
         k -= 1  #decrementamos k
-    return list1 #retornamos la lista 1
+    
 
     while j >= 0: #mientras j sea mayor o igual a 0
         list1[k] = list2[j] #el elemento de la lista 1 en la posicion k sera igual al elemento de la lista 2 en la posicion j
         j -= 1 #decrementamos j
         k -= 1 #decrementamos k
+    
+    return list1 #retornamos la lista 1
           
 
     
 list1 = [1,2,3,0,0,0]
 m=3
-list2 = [2,5,6]
+list2 = [-4,5,6]
 n=3 
 
-print(solution(list1, list2, m, n)) # [1,2,2,3,5,6]
+print(solution(list1, list2, m, n)) # [1,2,2,3,5,6] 
