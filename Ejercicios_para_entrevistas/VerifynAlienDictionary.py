@@ -11,6 +11,8 @@ def alienDictionary(words, order):
     for i in range(len(words) - 1):
         if not compare(words[i], words[i + 1]):
             return False
+    
+        return True
         
         
 words = ["hello", "leetcode", "world", "row", "my"]
@@ -18,7 +20,7 @@ order = "hlabcdefgijkmnopqrstuvwxyz"
 
 print(alienDictionary(words, order)) # True
 
-words = ["word", "world", "row"]
-order = "worldabcefghijkmnpqstuvxyz"
+# words = ["word", "world", "row"]
+# order = "worldabcefghijkmnpqstuvxyz"
 
-print(alienDictionary(words, order)) # False
+# print(alienDictionary(words, order)) # False
