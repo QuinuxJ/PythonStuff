@@ -12,6 +12,6 @@ def solution(numbers, target):
     return -1
     
     
-numbers = [1,5,8,11,16,23,40,56,72,99]
-target = 23
+numbers = [16,23,40,56,72,99,1,5,8,11]
+target = 16
 print(solution(numbers,target))
