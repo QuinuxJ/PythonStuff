@@ -3,8 +3,11 @@ def solution(numbers, target):
     derecha = len(numbers) - 1
     while izquierda <= derecha:
         mitad = izquierda + (derecha - izquierda) // 2
+        
         if numbers[mitad] == target:
             return mitad
+        
+        
         elif numbers[mitad] < target:
             izquierda = mitad + 1
         else:
