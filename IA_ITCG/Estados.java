@@ -1,0 +1,3 @@
+public enum Estados{
+    CONECTADO, DESCONECTADO, APAGADO, ENCENDIDO;
+}
